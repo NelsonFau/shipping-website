@@ -1,0 +1,170 @@
+*{
+    padding-right: 0 !important ;
+}
+
+.global{
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* header */
+
+.logo{
+    width:100px;
+    height: auto;
+}
+
+
+.container-position{
+    z-index: 1;
+    flex-direction:row;/*cambia el izquierda a derecha de los hijos de contenedor para que sean de arriba a abajo*/
+    display: flex;/*convierte el contenedor en un contenedorr flex: ahora se pueden usar propiedades del felxbox */
+}
+
+
+.navbar-color{
+    background-color: rgb(0, 0, 0) !important;
+}
+
+.dropdown-item{
+    color: antiquewhite;
+}
+
+.down{
+    background-color: rgb(0, 0,0);       
+}
+
+
+.nav-link{
+    color: antiquewhite !important;
+
+}
+
+.dropdown-menu{
+    background-color: #000;
+}
+
+
+.img {
+    background-image: url('../img/CAMION FONDO2.jpeg');
+    background-size: cover;
+}
+
+
+/* main */
+
+.btn-save{
+    width: 300px;
+}
+
+
+.formEnvio {
+    background-color: rgba(0, 0, 0, 0.7); /* Color de fondo semi-transparente */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; 
+    flex-direction: column;
+}
+
+.envioRemitenteDestinatario {
+    width: 50%;
+    padding: 10px !important;
+    font-size: 16px;
+    line-height: 1.6; 
+    color: antiquewhite;
+}
+
+.mpc{
+    color: antiquewhite;
+}
+
+
+
+/* footer */
+
+.contacto{
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+}
+
+.text-light{
+    overflow-wrap: break-word;  
+    
+}
+
+.text{
+    color: rgb(0, 0, 0);
+    flex-direction: column;
+    display: flex;
+}
+
+.Facebook{
+    width:60px;
+    height:60px;
+}
+
+.Instagram{
+    width:50px;
+    height:50px;
+}
+
+.Whatsapp{
+    width:50px;
+    height:50px;
+}
+
+.Master{
+    width: 60px;
+    height: 50px;
+}
+
+.Visa{
+    width: 60px;
+    height: 50px;
+}
+
+
+
+.down{
+    background-color: rgb(0, 0,0);    
+    position: relative; 
+}
+
+
+
+.contacto{
+    color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.pay{
+    color: antiquewhite;
+    display: flex;
+    justify-content: end;
+}
+
+.p{
+    color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+}
+
+.mpay{
+    color: antiquewhite;
+    display: flex;
+    justify-content: end;
+}
+
+p{  
+    color: antiquewhite;
+}
+
+
+

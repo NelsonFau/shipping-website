@@ -1,0 +1,176 @@
+*{
+    padding-right: 0 !important ;
+}
+
+.global{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+
+/* header */
+
+.logo{
+    width:100px;
+    height: auto;
+}
+
+
+.container-position{
+    flex-direction:row;/*cambia el izquierda a derecha de los hijos de contenedor para que sean de arriba a abajo*/
+    display: flex;/*convierte el contenedor en un contenedorr flex: ahora se pueden usar propiedades del felxbox */
+
+}
+
+
+
+.navbar-color{
+    background-color: rgb(0, 0, 0) !important;
+}
+
+.dropdown-item{
+    color: antiquewhite;
+}
+
+.down{
+    background-color: rgb(0, 0,0);       
+}
+
+
+.nav-link{
+    color: antiquewhite !important;
+
+}
+
+.dropdown-menu{
+    background-color: #000;
+}
+
+/* main */
+
+
+
+.text{
+    background-image: url('/img/CAMION\ FONDO2.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+
+.flex1{
+    padding: 20px !important; /* Añade un poco de espacio alrededor del formulario */
+    background-color: rgba(0, 0,0,0.5); /* Opcional: color de fondo para el formulario */
+    border-radius: 8px; /* Opcional: bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Opcional: sombra sutil */
+    position:absolute;
+    top: 50%;
+    left: 30%;
+
+}
+
+.busqueda{
+    display: flex; /* Utiliza flexbox para alinear los elementos dentro del div */
+    align-items: center; /* Centra verticalmente el contenido */
+}
+
+
+.title{
+    color: white; /* Color del texto */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Sombra del texto */
+}
+
+.btn{
+    background-color: rgb(105, 233, 169);
+}
+
+.btn-outline-success{
+    padding: 10px !important;
+}
+
+/* footer */
+
+.contacto{
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+}
+
+.text-light{
+    overflow-wrap: break-word;  
+    
+}
+
+.text{
+    color: rgb(0, 0, 0);
+
+}
+
+.Facebook{
+    width:60px;
+    height:60px;
+}
+
+.Instagram{
+    width:50px;
+    height:50px;
+}
+
+.Whatsapp{
+    width:50px;
+    height:50px;
+}
+
+.Master{
+    width: 60px;
+    height: 50px;
+}
+
+.Visa{
+    width: 60px;
+    height: 50px;
+}
+
+
+
+.down{
+    background-color: rgb(0, 0,0);       
+}
+
+
+
+.contacto{
+    color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.pay{
+    color: antiquewhite;
+    display: flex;
+    justify-content: end;
+}
+
+.p{
+    color: antiquewhite;
+    display: flex;
+}
+
+.mpay{
+    color: antiquewhite;
+    display: flex;
+    justify-content: end;
+}
+
+
+
+p{  
+    color: antiquewhite;
+}
+
+
+
