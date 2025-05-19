@@ -1,4 +1,4 @@
-# 🌐 NelsonFau Shipping Website
+# 🌐 Shipping Website
 
 Este proyecto es una práctica de desarrollo web front-end enfocada en HTML, CSS y diseño responsivo. Consiste en una página web simulando una empresa de envíos o logística, similar a un servicio de correo o paquetería.
 
